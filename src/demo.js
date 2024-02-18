@@ -1,5 +1,6 @@
 // Analyse static code and detecting errors with ts extension
 // @ts-check
+// early feedback
 (()=> {
   const myCart = [];
   const products = [];

@@ -1,4 +1,4 @@
-// Analyse code static with ts extension
+// Analyse static code and detecting errors with ts extension
 // @ts-check
 (()=> {
   const myCart = [];

@@ -8,3 +8,19 @@ Por que usar TypeScript
 
 - Slack
 - Airbnb
+
+
+- Saber JavaScript es diferente a saber TypeScript
+- Tu te das cuenta que tienes un error en JavaScript solo al momento de ejecucion (navegador, node, donde sea)
+- Tener feedback lo antes posible
+- TypeScript va tomar el lemguaje junto con sus nuevas caracteristicas (ESNext, ES6, ES7 etc...) y le va a poner tipos
+- Analisis de codigo estatico de todo eso
+- Primera capa: analisis de codigo estatico (typos, una funcion no esa definida, etc...)
+- 2. Pruebas unitarias
+- 3. Pruebas de Integracion (Vemos como todo funciona en conjunto)
+- 4. Revision de Codigo
+
+Analisis de codigo estatico compilacion
+
+¿Un desarrollador de TypeScript es diferente a un Desarrolador de JavaScript?
+    - Si pero no es una gran diferencia si tienes conocimientos de JavaScript podras entender TypeScript facilmente

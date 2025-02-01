@@ -47,3 +47,31 @@ npx tsc --version
 
 Atrapando errores con analisis de codigo estatico
 
+ Compilador de typescript:
+
+Typescriot va a tratar de convertir el codigo a una version especifica en donde igual funcione
+
+ts es la extension para TypeScript
+
+
+Ejecuta compilador (convierte el archivo typescript a JS y crea uno nuevo con la extension js)
+npx tsc 01-hello.ts 
+
+Ejecuta el compilador con una version especifica de ES
+npx tsc demowithTS.ts --target es6
+
+dist / distribution
+
+transpilar: s un tipo especial de compilador que traduce de un lenguaje fuente a otro fuente también de un nivel de abstracción parecido
+
+Generar el archivo JS en una carpeta diferente 
+npx tsc demowithTS.ts --target es6 --outDir dist
+
+podemos usar Regex para transpilar todos los archivos que terminan en una extension .ts
+npx tsc src/*.ts --target es6 --outDir dist
+
+Typescript no lee nativamente node ni navegadores por ello debemos hacer un proceso de transpilación
+
+Hay herramientas como Deno que corre typescript por defecto
+
+

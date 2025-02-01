@@ -24,3 +24,23 @@ Analisis de codigo estatico compilacion
 
 ¿Un desarrollador de TypeScript es diferente a un Desarrolador de JavaScript?
     - Si pero no es una gran diferencia si tienes conocimientos de JavaScript podras entender TypeScript facilmente
+  
+
+  Instalar typescript
+
+- Dentro de la carpeta
+- ad gitignore editorconfig
+
+- Generar package.json 
+  - npm init -y
+
+- typescript no lo lee node ni el navegador
+
+npx ejecuta dependencias dentro del proyecto (no de manera global)
+- comando para instalar 
+- --save-dev dependencia de desarrollo
+npm install typescript --save-dev 
+
+npx tsc --version
+- No importa que version pueda salir los fundamentos se mantienen
+

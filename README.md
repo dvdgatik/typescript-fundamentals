@@ -44,3 +44,6 @@ npm install typescript --save-dev
 npx tsc --version
 - No importa que version pueda salir los fundamentos se mantienen
 
+
+Atrapando errores con analisis de codigo estatico
+

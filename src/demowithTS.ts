@@ -1,6 +1,7 @@
 
 /*
-- Este codigo tiene errores pero no se dara cuenta hasta que se ejecute en node o navegador
+-----archivo corregido------
+- Este codigo tenia errores pero no se dara cuenta hasta que se ejecute en node o navegador
 - Lo que quieremos es feedback temprano (con el analizador de codigo estatico, tenerlo al mismo nivel que cuando escribimos codigo)
 - Podemos activar el analizador de codigo estatico de TS en JS
 */

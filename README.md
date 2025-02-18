@@ -65,13 +65,15 @@ dist / distribution
 transpilar: s un tipo especial de compilador que traduce de un lenguaje fuente a otro fuente también de un nivel de abstracción parecido
 
 Generar el archivo JS en una carpeta diferente 
-npx tsc demowithTS.ts --target es6 --outDir dist
+npx tsc demowithTS.ts(filename and extension) --target es6 --outDir dist
 
 podemos usar Regex para transpilar todos los archivos que terminan en una extension .ts
 npx tsc src/*.ts --target es6 --outDir dist
+
+con outDir podemos transpilar los archivos y ubicarlos a una carpeta especifica
 
 Typescript no lee nativamente node ni navegadores por ello debemos hacer un proceso de transpilación
 
 Hay herramientas como Deno que corre typescript por defecto
 
-
+Existe una tecnologia deno que corre typescript por defecto

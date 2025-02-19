@@ -77,3 +77,45 @@ Typescript no lee nativamente node ni navegadores por ello debemos hacer un proc
 Hay herramientas como Deno que corre typescript por defecto
 
 Existe una tecnologia deno que corre typescript por defecto
+
+
+Generar un archivo tsconfig.json
+
+con el comando: npx tsc --init
+
+nota: Recuerda npx sirve para ejecutar paquetes de Node.js sin necesidad de instalarlos globalmente.
+
+Lo descarga temporalmente, lo ejecuta y luego lo desecha (a menos que ya esté en caché).
+hay un monton de opciones que por defecto estan comentadas
+
+algunas opciones 
+
+outDir
+
+ejemplo
+    "outDir": "./",  
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+
+rooDir
+     "rootDir": "./",     
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+
+
+al ejecutar npx tsc va a reconocer las nuevas configuraciones del config.ts y lo transpilara
+
+
+A pesar de que hay errores puede transpilar los archivos incluso con errores
+
+al usar el comando npx tsc --watch activa el modo viliganacia que hara que automaticamente se transpilen los archivos que
+se vayan modificando o creando  de typescript
+
+muchos proyectos tienen su propio tsconfig como:
+
+Jest
+Nest
+Svelte
+Redux
+ionic
+TypeORM
+Github
+Angular

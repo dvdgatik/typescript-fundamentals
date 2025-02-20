@@ -119,3 +119,29 @@ ionic
 TypeORM
 Github
 Angular
+
+
+Typado en TypeScript
+
+Recuerda que Javascript tiene tipos pero son debilmemte tipados y de tipado dinamico
+
+clases, static y todo lo de POO es algo que ya tiene JavaScript aunque muchos crean que viene de typesript
+a menos que se este usando una version vieja de javascript
+
+La flexibilidad en JavaScript es un gran poder (Un gran poder conlleva una gran responsabilidad)
+
+entonces en JS tenemos dada la siguiente variable
+
+const productPrice =  12;
+
+en TS agregaremos un poco mas de Verbose
+
+const productPrice: number = 12; (esto es lo que JS no tiene tipado fuerte)
+
+
+: + tipado (type annotation)
+
+nota: "Typescript el lenguaje que los que venian de lenguajes OLD querian hacer en la web xd"
+
+
+typescript pued einferir el tipo o lo podemos hacer de forma explicita

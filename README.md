@@ -145,3 +145,8 @@ nota: "Typescript el lenguaje que los que venian de lenguajes OLD querian hacer 
 
 
 typescript pued einferir el tipo o lo podemos hacer de forma explicita
+
+
+------Number tipo de dato------
+
+

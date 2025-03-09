@@ -51,4 +51,25 @@ e incluso para arreglos  o arreglos de objetos
 
 
   console.log(products)
+
+
+
+  /*
+  En caso de que se quiera usar el destructuring se puede hacer de las siguiente manera
+
+
+type Product = {
+    title: string;
+    createdAt: Date;
+    stock: number;
+    size?: Sizes;
+  };
+
+  const printProduct = ({ title, createdAt, stock, size }: Product) => {
+    console.log(title);
+    console.log(createdAt);
+    console.log(stock);
+    console.log(size);
+  };
+  */
 })()

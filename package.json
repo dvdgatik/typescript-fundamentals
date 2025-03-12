@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/dvdgatik/typescript-fundamentals#readme",
   "devDependencies": {
+    "@types/lodash": "^4.17.17",
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "date-fns": "^4.1.0"
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21"
   }
 }
